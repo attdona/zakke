@@ -32,7 +32,10 @@ At the moment some [strange SDCC behaviors](https://github.com/attdona/zakke/wik
 4. some cool ideas ...
 
 ## Build the demo
-
+    git clone https://github.com/attdona/zakke.git
+    cd zakke
+    git submodule init
+    git submodule update
     cd apps/mote
     make TARGET=cc1110mdk
 
