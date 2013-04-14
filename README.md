@@ -45,7 +45,7 @@ Press the MASTER button: the green led toggles and an "hello" packet is transmit
 
 ## Acknoledgments
 
-This project has been possible thanks to Texas Instrument hardware that has been freely provided for sake of experimentation.
+This project has been possible thanks to Texas Instrument that has been freely provided the development kits for sake of experimentation.
 
 Thanks to all Contiki developers around the world.
 
