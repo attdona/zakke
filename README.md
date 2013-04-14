@@ -49,7 +49,7 @@ This project has been possible thanks to Texas Instrument that has been freely p
 
 Thanks to all Contiki developers around the world.
 
-Special mention to George Oikonomou, because the cc1110 port starts from his job on CC2531.
+Special mention to George Oikonomou, because the cc1110 port starts from his job on CC253x.
 
 
 
