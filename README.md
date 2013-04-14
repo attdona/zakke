@@ -22,7 +22,7 @@ This preliminary Zakke version uses Rime stack without a RDC layer.
 
 Zakke is work in progress, but we think that an early community involvement is better than a late perfect solution.
 
-At the moment some strange SDCC behaviors have to be further investigated; help from the SDCC developers would be really appreciated!
+At the moment some [strange SDCC behaviors](https://github.com/attdona/zakke/wiki/contiki-patches) have to be further investigated; help from the SDCC developers would be really appreciated!
 
 ## Roadmap
 
