@@ -43,7 +43,7 @@ Flash the cc1110-mini-dk board.
 
 Press the MASTER button: the green led toggles and an "hello" packet is transmitted.
 
-## Acknoledgments
+## Acknowledgments
 
 This project has been possible thanks to Texas Instruments that has been freely provided the development kits for sake of experimentation.
 
