@@ -22,7 +22,7 @@ This preliminary Zakke version uses Rime stack without a RDC layer.
 
 Zakke is work in progress, but we think that an early community involvement is better than a late perfect solution.
 
-At the moment some strange SDCC behaviors have to be further investigated; help from the SDCC developers would be really appreciated!
+At the moment some [strange SDCC behaviors](https://github.com/attdona/zakke/wiki/contiki-patches) have to be further investigated; help from the SDCC developers would be really appreciated!
 
 ## Roadmap
 
@@ -32,7 +32,10 @@ At the moment some strange SDCC behaviors have to be further investigated; help 
 4. some cool ideas ...
 
 ## Build the demo
-
+    git clone https://github.com/attdona/zakke.git
+    cd zakke
+    git submodule init
+    git submodule update
     cd apps/mote
     make TARGET=cc1110mdk
 
@@ -40,13 +43,13 @@ Flash the cc1110-mini-dk board.
 
 Press the MASTER button: the green led toggles and an "hello" packet is transmitted.
 
-## Acknoledgments
+## Acknowledgments
 
-This project has been possible thanks to Texas Instrument hardware that has been freely provided for sake of experimentation.
+This project has been possible thanks to Texas Instruments that has been freely provided the development kits for sake of experimentation.
 
 Thanks to all Contiki developers around the world.
 
-Special mention to George Oikonomou, because the cc1110 port starts from his job on CC2531.
+Special mention to George Oikonomou, because the cc1110 port starts from his job on CC253x.
 
 
 
