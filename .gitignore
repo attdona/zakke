@@ -1,0 +1,35 @@
+# Object files
+*.o
+
+# Libraries
+*.lib
+*.a
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# sdcc stuffs
+*.cc1110mdk
+*.hex
+*.lk
+*.map
+*.mem
+obj_cc1110mdk
+
+
+# ide
+.cproject
+.project
+.settings
+*.cbp
+*.depend
+*.layout
+*.cscope_file_list
