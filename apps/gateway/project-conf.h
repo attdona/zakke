@@ -14,14 +14,14 @@
 // also without phase lock optimization the image is too big (36kb)
 #define WITH_PHASE_OPTIMIZATION 0
 
-//#define NETSTACK_CONF_RDC cxmac_driver
+#define NETSTACK_CONF_RDC cxmac_driver
 #define WITH_ENCOUNTER_OPTIMIZATION 0
 #define CXMAC_CONF_ANNOUNCEMENTS 0
 #define CXMAC_CONF_COMPOWER 0
 #define WITH_STREAMING 0
 #define WITH_ACK_OPTIMIZATION 0
 
-#define NETSTACK_CONF_RDC nullrdc_noframer_driver
+//#define NETSTACK_CONF_RDC nullrdc_noframer_driver
 
 #define NETSTACK_CONF_MAC nullmac_driver
 

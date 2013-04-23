@@ -22,7 +22,6 @@ This preliminary Zakke version uses Rime stack without a RDC layer.
 
 Zakke is work in progress, but we think that an early community involvement is better than a late perfect solution.
 
-At the moment some [strange SDCC behaviors](https://github.com/attdona/zakke/wiki/contiki-patches) have to be further investigated; help from the SDCC developers would be really appreciated!
 
 ## Roadmap
 
@@ -51,5 +50,5 @@ Thanks to all Contiki developers around the world.
 
 Special mention to George Oikonomou, because the cc1110 port starts from his job on CC253x.
 
-
+Thanks to Maarten Brock for support on SDCC, see [this thread](https://sourceforge.net/p/sdcc/bugs/2155/) if you notice problems with your SDCC toolchain.
 

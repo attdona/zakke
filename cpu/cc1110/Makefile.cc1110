@@ -20,14 +20,14 @@ SEGMENT_RULES = $(OBJECTDIR)/segment.rules
 #CFLAGS  += --model-$(MEMORY_MODEL) --stack-auto --std-c99 --opt-code-size
 CFLAGS  += --model-$(MEMORY_MODEL) --stack-auto --std-c99
 
-CFLAGS  += --fomit-frame-pointer -DRIMEADDR=$(RIMEADDR)
+CFLAGS  += --debug --fomit-frame-pointer -DRIMEADDR=$(RIMEADDR)
 
 #and on 2nd look you should also reduce "--xram-size 0x1000"
 #to 0x0f00 or the maximum xdata size your device has.
 #The smaller of the two values.
 
 LDFLAGS += --model-$(MEMORY_MODEL) --stack-auto --out-fmt-ihx
-LDFLAGS += --xram-loc 0xf000 --xram-size 0x1000
+LDFLAGS += --xram-loc 0xf000 --xram-size 0x0f00
 LDFLAGS += --code-loc $(START_ADDR) --code-size $(CODE_SIZE)
 
 ASFLAGS += -plosgff

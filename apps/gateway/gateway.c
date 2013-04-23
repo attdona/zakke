@@ -10,19 +10,23 @@
 #include "dev/button-sensor.h"
 #include "dev/leds.h"
 #include "net/rime.h"
-
+#include "debug.h"
 #define DEBUG 1
 #if DEBUG
-#include <stdio.h>
-#define PRINTF(...) printf(__VA_ARGS__)
+//#include <stdio.h>
+//#define PRINTF(...) printf(__VA_ARGS__)
+#define PUTSTRING(...) putstring(__VA_ARGS__)
 #else
 #define PRINTF(...)
+#define PUTSTRING(...)
 #endif
 
 static void
 abc_recv(struct abc_conn *c)
 {
-  PRINTF("abc message received '%s'\n", (char *)packetbuf_dataptr());
+  //PRINTF("abc message received '%s'\n", (char *)packetbuf_dataptr());
+  PUTSTRING((char *)packetbuf_dataptr());
+  PUTSTRING("\n");
 }
 static const struct abc_callbacks abc_call = {abc_recv};
 static struct abc_conn abc;
