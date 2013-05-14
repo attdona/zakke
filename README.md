@@ -1,7 +1,7 @@
 Zakke
 =======
 
-Sub 1-GHz radios to connect the phisical world to internet.
+Sub 1-GHz radios to connect the physical world to internet.
 
 ![CC1110 Development kit](docs/images/CC1110DK.png)
 
